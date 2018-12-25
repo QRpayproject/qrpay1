@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var QrOpen: UIButton!
+    var user=User_Credentials()
+    var value:String?
+    @IBAction func QrOpen(_ sender: Any) {
+        
+        let  storyboard:UIStoryboard=UIStoryboard(name: "Main", bundle: nil)
+        let vc=storyboard.instantiateViewController(withIdentifier: "QRView") as! QRViewController
+        self.present(vc, animated: true, completion: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+      
     }
 
     override func didReceiveMemoryWarning() {

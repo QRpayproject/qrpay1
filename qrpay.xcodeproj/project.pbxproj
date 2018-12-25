@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2527E9759E5C209ADD96B2A3 /* Pods_qrpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351E47D9F9296BFBDE7D8550 /* Pods_qrpay.framework */; };
+		39280F7321CCC513008175E5 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39280F7221CCC513008175E5 /* QRViewController.swift */; };
+		392C381821CD008E009765F2 /* User_Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392C381721CD008E009765F2 /* User_Credentials.swift */; };
 		395ED47821CA3A1F00386C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395ED47721CA3A1F00386C24 /* AppDelegate.swift */; };
 		395ED47A21CA3A1F00386C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395ED47921CA3A1F00386C24 /* ViewController.swift */; };
 		395ED47D21CA3A1F00386C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395ED47B21CA3A1F00386C24 /* Main.storyboard */; };
@@ -14,6 +17,11 @@
 		395ED48221CA3A2200386C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 395ED48021CA3A2200386C24 /* LaunchScreen.storyboard */; };
 		395ED48D21CA3A2200386C24 /* qrpayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395ED48C21CA3A2200386C24 /* qrpayTests.swift */; };
 		395ED49821CA3A2200386C24 /* qrpayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395ED49721CA3A2200386C24 /* qrpayUITests.swift */; };
+		395ED4A621CA3A6A00386C24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395ED4A521CA3A6A00386C24 /* LoginViewController.swift */; };
+		399528E221D21857008CF805 /* User_Order_Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399528E121D21857008CF805 /* User_Order_Info.swift */; };
+		399528E421D222E8008CF805 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399528E321D222E8008CF805 /* SignUpViewController.swift */; };
+		8640B76B39503908A6B66785 /* Pods_qrpayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497A67D11E67CAF1E774B307 /* Pods_qrpayUITests.framework */; };
+		D7E702BE743F2EB80D80F095 /* Pods_qrpayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BF82BFC725AD8A5686290E /* Pods_qrpayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24A427AD7E28F5E62536B2CA /* Pods-qrpayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qrpayUITests/Pods-qrpayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		277B4BFD034BE583A5E5BC20 /* Pods-qrpayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qrpayUITests/Pods-qrpayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		351E47D9F9296BFBDE7D8550 /* Pods_qrpay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qrpay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39280F7221CCC513008175E5 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		392C381721CD008E009765F2 /* User_Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Credentials.swift; sourceTree = "<group>"; };
 		395ED47421CA3A1F00386C24 /* qrpay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrpay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		395ED47721CA3A1F00386C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		395ED47921CA3A1F00386C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		395ED49321CA3A2200386C24 /* qrpayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrpayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395ED49721CA3A2200386C24 /* qrpayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrpayUITests.swift; sourceTree = "<group>"; };
 		395ED49921CA3A2200386C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		395ED4A521CA3A6A00386C24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		399528E121D21857008CF805 /* User_Order_Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_Order_Info.swift; sourceTree = "<group>"; };
+		399528E321D222E8008CF805 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		495AA411E5F4654E93FFC729 /* Pods-qrpayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qrpayTests/Pods-qrpayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		497A67D11E67CAF1E774B307 /* Pods_qrpayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qrpayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52169E09EF21CF7DC57A5804 /* Pods-qrpayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-qrpayTests/Pods-qrpayTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FE8FED6B18D92A48B0FEB51 /* Pods-qrpay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qrpay/Pods-qrpay.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BF82BFC725AD8A5686290E /* Pods_qrpayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qrpayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902B4C133E430290AA25B5B /* Pods-qrpay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrpay.release.xcconfig"; path = "Pods/Target Support Files/Pods-qrpay/Pods-qrpay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2527E9759E5C209ADD96B2A3 /* Pods_qrpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E702BE743F2EB80D80F095 /* Pods_qrpayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8640B76B39503908A6B66785 /* Pods_qrpayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3420862EF417E9566F6D5C7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FE8FED6B18D92A48B0FEB51 /* Pods-qrpay.debug.xcconfig */,
+				F902B4C133E430290AA25B5B /* Pods-qrpay.release.xcconfig */,
+				495AA411E5F4654E93FFC729 /* Pods-qrpayTests.debug.xcconfig */,
+				52169E09EF21CF7DC57A5804 /* Pods-qrpayTests.release.xcconfig */,
+				24A427AD7E28F5E62536B2CA /* Pods-qrpayUITests.debug.xcconfig */,
+				277B4BFD034BE583A5E5BC20 /* Pods-qrpayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		395ED46B21CA3A1F00386C24 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				395ED48B21CA3A2200386C24 /* qrpayTests */,
 				395ED49621CA3A2200386C24 /* qrpayUITests */,
 				395ED47521CA3A1F00386C24 /* Products */,
+				3420862EF417E9566F6D5C7A /* Pods */,
+				B88AF3B668EE01E0D1C4A1F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +137,11 @@
 		395ED47621CA3A1F00386C24 /* qrpay */ = {
 			isa = PBXGroup;
 			children = (
+				399528E321D222E8008CF805 /* SignUpViewController.swift */,
+				392C381721CD008E009765F2 /* User_Credentials.swift */,
+				399528E121D21857008CF805 /* User_Order_Info.swift */,
+				39280F7221CCC513008175E5 /* QRViewController.swift */,
+				395ED4A521CA3A6A00386C24 /* LoginViewController.swift */,
 				395ED47721CA3A1F00386C24 /* AppDelegate.swift */,
 				395ED47921CA3A1F00386C24 /* ViewController.swift */,
 				395ED47B21CA3A1F00386C24 /* Main.storyboard */,
@@ -125,6 +170,16 @@
 			path = qrpayUITests;
 			sourceTree = "<group>";
 		};
+		B88AF3B668EE01E0D1C4A1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				351E47D9F9296BFBDE7D8550 /* Pods_qrpay.framework */,
+				B8BF82BFC725AD8A5686290E /* Pods_qrpayTests.framework */,
+				497A67D11E67CAF1E774B307 /* Pods_qrpayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395ED49C21CA3A2200386C24 /* Build configuration list for PBXNativeTarget "qrpay" */;
 			buildPhases = (
+				35D92E484A73F014B186ADEC /* [CP] Check Pods Manifest.lock */,
 				395ED47021CA3A1F00386C24 /* Sources */,
 				395ED47121CA3A1F00386C24 /* Frameworks */,
 				395ED47221CA3A1F00386C24 /* Resources */,
+				B49FDAAB10D848F1976F7CC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395ED49F21CA3A2200386C24 /* Build configuration list for PBXNativeTarget "qrpayTests" */;
 			buildPhases = (
+				E437824169492F4E91D20724 /* [CP] Check Pods Manifest.lock */,
 				395ED48421CA3A2200386C24 /* Sources */,
 				395ED48521CA3A2200386C24 /* Frameworks */,
 				395ED48621CA3A2200386C24 /* Resources */,
@@ -167,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 395ED4A221CA3A2200386C24 /* Build configuration list for PBXNativeTarget "qrpayUITests" */;
 			buildPhases = (
+				DB3C49A0C8541FF2E9870FE1 /* [CP] Check Pods Manifest.lock */,
 				395ED48F21CA3A2200386C24 /* Sources */,
 				395ED49021CA3A2200386C24 /* Frameworks */,
 				395ED49121CA3A2200386C24 /* Resources */,
@@ -251,13 +310,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35D92E484A73F014B186ADEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qrpay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B49FDAAB10D848F1976F7CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-qrpay/Pods-qrpay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qrpay/Pods-qrpay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3C49A0C8541FF2E9870FE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qrpayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E437824169492F4E91D20724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qrpayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		395ED47021CA3A1F00386C24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392C381821CD008E009765F2 /* User_Credentials.swift in Sources */,
+				399528E421D222E8008CF805 /* SignUpViewController.swift in Sources */,
+				395ED4A621CA3A6A00386C24 /* LoginViewController.swift in Sources */,
 				395ED47A21CA3A1F00386C24 /* ViewController.swift in Sources */,
+				399528E221D21857008CF805 /* User_Order_Info.swift in Sources */,
 				395ED47821CA3A1F00386C24 /* AppDelegate.swift in Sources */,
+				39280F7321CCC513008175E5 /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +569,11 @@
 		};
 		395ED49D21CA3A2200386C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE8FED6B18D92A48B0FEB51 /* Pods-qrpay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4G25QJY7H;
 				INFOPLIST_FILE = qrpay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,9 +588,11 @@
 		};
 		395ED49E21CA3A2200386C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F902B4C133E430290AA25B5B /* Pods-qrpay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A4G25QJY7H;
 				INFOPLIST_FILE = qrpay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +607,7 @@
 		};
 		395ED4A021CA3A2200386C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495AA411E5F4654E93FFC729 /* Pods-qrpayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +628,7 @@
 		};
 		395ED4A121CA3A2200386C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52169E09EF21CF7DC57A5804 /* Pods-qrpayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +649,7 @@
 		};
 		395ED4A321CA3A2200386C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A427AD7E28F5E62536B2CA /* Pods-qrpayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +669,7 @@
 		};
 		395ED4A421CA3A2200386C24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277B4BFD034BE583A5E5BC20 /* Pods-qrpayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
